@@ -20,13 +20,10 @@ async def on_ready():
     except Exception as e:
         print(f"Failed to sync commands: {e}")
 
-@bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
 
 @bot.command()
 async def hello(ctx):
-    await ctx.send(f"Hello {ctx.author.name}! 😃")
+    await ctx.send("مرحبا بعضو طاقمي المذهل ! رارارارارارا! ")
 
 # Run the bot
 if __name__ == "__main__":
